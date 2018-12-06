@@ -19,6 +19,8 @@ setup(
     packages = find_packages(),
     author = "Wizard Li",
     author_email = "lsw1991abc@gmail.com",
+    url = "https://github.com/lsw1991abc/py-xbug-utils",
     long_description = read('README.md'),
+    long_description_content_type = "text/markdown",
     include_package_data = True
 )
