@@ -7,9 +7,6 @@ from email.mime.text import MIMEText
 
 from cloud.xbug.utils.properties import PropertiesUtil
 
-# 教程 https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432005226355aadb8d4b2f3f42f6b1d6f2c5bd8d5263000
-
-
 charset = 'utf-8'
 
 
@@ -46,8 +43,8 @@ class Sender:
         if receivers is None:
             receivers = []
         msg = MIMEText(_text = content, _subtype = 'html', _charset = charset)
-        msg['From'] = Header(s = self.smtp_user, charset = charset)
-        msg['To'] = Header(s = ",".join(receivers), charset = charset)
+        msg['From'] = Header(s = self.smtp_user)
+        msg['To'] = Header(s = ",".join(receivers))
         msg['Subject'] = Header(s = subject, charset = charset)
         try:
             if self.server is not None:
