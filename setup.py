@@ -15,7 +15,7 @@ def read(file_name):
 
 setup(
     name = "xbug-utils",
-    version = "0.0.1.dev2",
+    version = "0.0.1.dev3",
     packages = find_packages(),
     author = "Wizard Li",
     author_email = "lsw1991abc@gmail.com",
