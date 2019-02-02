@@ -5,7 +5,7 @@ import smtplib
 from email.header import Header
 from email.mime.text import MIMEText
 
-from cloud_xbug_utils.xbug.utils.properties import PropertiesUtil
+from cloud_xbug_utils.properties import PropertiesUtil
 
 charset = 'utf-8'
 
