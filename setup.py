@@ -14,12 +14,12 @@ def read(file_name):
 
 
 setup(
-    name = "xbug-utils",
-    version = "0.0.1.dev4",
+    name = "vimo-utils",
+    version = "0.0.1.dev0",
     packages = find_packages(),
     author = "Wizard Li",
     author_email = "lsw1991abc@gmail.com",
-    url = "https://github.com/lsw1991abc/py-xbug-utils",
+    url = "https://github.com/lsw1991abc/py-vimo-utils",
     long_description = read('README.md'),
     long_description_content_type = "text/markdown",
     include_package_data = True
