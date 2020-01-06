@@ -15,7 +15,7 @@ def read(file_name):
 
 setup(
     name = "vimo-utils",
-    version = "0.0.1.dev0",
+    version = "0.0.1.dev1",
     packages = find_packages(),
     author = "Wizard Li",
     author_email = "lsw1991abc@gmail.com",
